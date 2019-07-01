@@ -89,10 +89,10 @@ td {
 }
 .input {
     border:3px dotted rgb(87, 45, 7);
-    background-color: salmon;
+    background-color: grey;
 }
 .input:focus {
     border: 3px solid red;
-    background-color: aqua;
+    background-color: grey;
 }
 
