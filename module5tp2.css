@@ -1,0 +1,99 @@
+/* mise en page module5tp2.html */
+body {
+    background-color: rgb(155, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#logo {
+    float: left;
+    width: 50%;
+    height: 10%;
+    vertical-align: bottom;
+}
+#img_logo {
+    float: left;
+}
+#img_avatar {
+    float: right;
+    height: 1.5cm;
+}
+#avatar {
+    float: right;
+    width: 15%;
+    text-align: right;
+    vertical-align: top;
+}
+#infos {
+    clear: both;
+    float: left;
+}
+#form {
+    margin-left: 20%;
+    background-image: radial-gradient(green, yellow, red);
+    width: 60%;
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px 10px blueviolet;
+    padding: 1cm;
+    clear: both;
+}
+h2 {
+    text-align: left;
+    background-image: linear-gradient(rgb(0, 195, 255), blue);
+    color: white;
+    text-indent: 3%;
+    border-radius: 10px;
+}
+h3 {
+    clear: both;
+    text-align: left;
+    border-bottom: 2px solid blue;
+}
+.leftColumn {
+    text-align: right;
+    float: left;
+    width: 50%;                                     
+    line-height: 200%;
+    padding-bottom: 20px;
+}
+.rightColumn {
+    float: left;
+    width: 50%;                                     
+    line-height: 200%;
+    padding-bottom: 20px;
+    text-align: right;
+}
+table {
+    clear: both;
+    text-align: center;
+}
+td {
+    border: 2px solid black;
+    width: 3cm;
+}
+.button {
+    border-radius: 10px;
+    width: 15%;
+    background-color: rgb(41, 25, 6);
+    color: greenyellow;
+    border: 3px dotted rgb(201, 22, 156);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button:focus {
+    background-color: brown;
+}
+.button:hover {
+    background-color: blue;
+}
+#buttonPosition {
+    margin-left: 40%;
+}
+.input {
+    border:3px dotted rgb(87, 45, 7);
+    background-color: salmon;
+}
+.input:focus {
+    border: 3px solid red;
+    background-color: aqua;
+}
+

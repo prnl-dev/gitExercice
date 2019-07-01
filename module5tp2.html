@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="module5tp2.css"/>
+        <title> My Music </title>
+    </head>
+    <body>
+        <header>
+            <logo id="logo">            
+                <img src="images/mymusic_logo.png" id="img_logo"/>
+                <br><h1> My Music - Artiste </h1>
+            </logo>
+            <avatar id="avatar">
+                    Denis ENI, connecté <br>
+                    <a href="compte.html">Mon compte</a> |
+                    <a href="deconnect.html">Déconnexion</a><br>
+            </avatar>  
+            <img src="images/avatar-40x40.png" id="img_avatar"/><br>  
+        </header>
+        <infos id="infos">
+            <a href="mailto:">E-Mail</a><br>
+            <a href="http://facebook.com" target="blank">Copyright©</a><br>   
+        </infos>
+        <form method="POST" id="form">
+            <h2>Mon compte</h2>
+            <h3>Vos informations personnelles</h3><br>
+            <leftColumn class="leftColumn">
+                <label for="name">Nom : </label><input type="text" class="input" name="nom" id="nom" placeholder="Votre nom ?" size="30" minlength="3" autofocus="autofocus"/><br>
+                Prénom : <input type="text" class="input" name="firstname" id="firstname" placeholder="Prénom ?"  size="30"/><br>
+                Email : <input type="email" class="input" size="30"/><br>
+                Mot de passe : <input type="password" class="input" id="pwd" maxlength="10" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6, }" size="30"/><br>
+            </leftColumn>
+            <rightColumn class="rightColumn">
+                Date de naissance : <input type="date" class="input" name="date" id="date" placeholder="jj/mm/aaaa" style="width:53mm"/><br>
+                Groupe préféré : <select for="favorite" class="input" size="1" style="width: 54.5mm">
+                    <option value="epica">Epica</option>
+                    <option value="autre">Autre</option></select><br> 
+                Téléphone : <input type="tel" class="input" maxlength="5" size="30"/><br>
+                Répéter le mot de passe : <input type="password" class="input" id="repeatpwd" size="30"/><br>
+            </rightColumn>
+
+            
+            <table id="table">
+                <h3>Votre formule abonnement : </h3><br>
+                <tr>
+                    <th></th>
+                    <th><input type="radio" name="abonnement"/><b>Premium+</b> </th>
+                    <th><input type="radio" name="abonnement"/><b>Premium</b> </th>
+                    <th><input type="radio" name="abonnement"/><b>Discovery</b></th>
+                </tr>
+                <tr>
+                    <th><b>Accès web</b></th>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                </tr>
+                <tr>
+                    <th><b>Accès mobile</b></th>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                    <td><img src="images/icon-not-ok-32x32.png"></td>
+                </tr>
+                <tr>
+                    <th><b>Ecoute illimitée</b></th>
+                    <td><img src="images/icon-ok-32x32.png"></td>
+                    <td><img src="images/icon-not-ok-32x32.png"></td>
+                    <td><img src="images/icon-not-ok-32x32.png"></td>
+                </tr>
+                <tr>
+                    <th><b>Tarifs</b></th>
+                    <td>11.99€/mois</td>
+                    <td>5.99€/mois</td>
+                    <td>Gratuit 1 mois</td>
+                </tr>
+            </table><br>
+            <input type="checkbox"/>Recevoir nos newsletters
+            <input type="checkbox"/>Recevoir les newsletters de nos partenaires<br>
+            <br>
+            <buttonPosition id="buttonPosition">
+                <input type="reset" value="Annuler" class="button"/>
+                <input type="reset" value="Valider" class="button"/>
+            </buttonPosition>
+        </form>
+    </body>
+</html>
